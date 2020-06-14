@@ -1,7 +1,8 @@
 # Sistema-Centralizado
 
-Nombre: Jhonathan Pizarra\
-        \Lizeth Toasa\
+Nombre: 
+*Jhonathan Pizarra\
+*Lizeth Toasa\
 Asignatura: Aplicaciones Distribuidas\
 Facultad: ESFOT
 
