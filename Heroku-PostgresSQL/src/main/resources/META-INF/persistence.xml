@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  
+    
+    <persistence-unit name="practicabdd" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>PracticaSistemaDistribuido.entidades.Productos</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://ec2-34-224-229-81.compute-1.amazonaws.com:5432/dqbgmnima4h7j"/>
+      <property name="javax.persistence.jdbc.user" value="xlnsskrmuqxwrw"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="ea2e15f41431f557480fa00f52ec16dd96d4a2d4b45b92e7ab61131cb12d0248"/>
+    </properties>
+  </persistence-unit>
+</persistence>
